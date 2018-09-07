@@ -25,7 +25,11 @@ import math
 n = int(input("I will estimate pi. How many terms should I use? "))
 decimal = int(input("How many decimal places should I use in the result? "))
 
-pi = 4*sum([((-1)**k)/(2*k+1) for k in range(0, n)])
+denom = sum([(2*k+1) for k in range(0,n)])
+numer = sum([((-1)**k) for k in range (0,n)])
+pi = 4*(numer/denom)
+
+# pi = 4*sum([((-1)**k)/(2*k+1) for k in range(0, n)])
 
 
 print ("The approximate value of pi is {0}".format(round(pi,decimal)))
