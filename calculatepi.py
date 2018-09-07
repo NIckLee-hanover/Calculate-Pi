@@ -1,7 +1,7 @@
 """
 calculatepi.py
 Author: Nick Lee
-Credit:
+Credit: I modified the line of code that calculated e to generate an aproximate pi
 Assignment: Calculate pi
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
