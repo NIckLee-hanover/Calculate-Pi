@@ -28,4 +28,3 @@ decimal = int(input("How many decimal places should I use in the result? "))
 pi = 4*sum([((-1)**k)/(2*k+1) for k in range(0, n)])
 
 print ("The approximate value of pi is {0}".format(round(pi,decimal)))
-print ("The real value of pi is {0}".format(round(math.pi,decimal)))
